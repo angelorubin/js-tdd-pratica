@@ -1,4 +1,4 @@
-var a = 1;
+const a = 1;
 
 function b() {
   return a;
