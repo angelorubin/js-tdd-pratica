@@ -1,0 +1,12 @@
+{
+  "name": "js-tdd-pratica",
+  "version": "1.0.0",
+  "description": "Biblioteca do curso JS com TDD na pratica",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["js", "tdd", "library"],
+  "author": "Angelo Rogério Rubin",
+  "license": "MIT"
+}
