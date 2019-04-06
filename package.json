@@ -2,11 +2,11 @@
   "name": "js-tdd-pratica",
   "version": "1.0.0",
   "description": "Biblioteca JS com TDD",
-  "main": "index.js",
+  "private": true,
+  "main": "./src/index.js",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint src/*.js",
-    "prepush": "npm run lint",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
   },
   "keywords": [
     "js",
@@ -16,10 +16,18 @@
   "author": "Angelo Rogério Rubin",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
     "husky": "^1.3.1",
-    "webpack": "^4.29.6"
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "ramda": "^0.26.1"
   }
 }
