@@ -1,4 +1,4 @@
-# My Library
+# JS TDD na Prática
 
 One Paragraph of project description goes here
 
